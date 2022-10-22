@@ -1,15 +1,5 @@
 body{font-family: "Roboto";}
 
-.logo {font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;   
-    letter-spacing: 0.03em;
-    color: #2196F3;}
-
-.logo-header {color: #000000}
-
 .list{list-style: none;}
 
 .link {text-decoration: none;}
@@ -17,24 +7,31 @@ body{font-family: "Roboto";}
 
 /*-----Header---*/
 
-
 .header {background-color: #ffffff;}
 
-.nav-head {
-}
-.nav-item {
-}
+.logo-header {font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;   
+    letter-spacing: 0.03em;
+    color: #2196F3;}
+
+.logo-part {color: #000000}
+.logo-header:hover{text-decoration:underline;}
+
+
+
 .nav-link {font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
-}
+    color: #212121;}
 
-.nav-link:hover, .nav-link:focus{background: #2196F3;
-}
+.nav-link:hover{text-decoration: underline #2196F3;}, 
+.nav-link:active{color: #2196F3;}
 
 .header-contacts{font-family: 'Roboto';
     font-style: normal;
@@ -44,7 +41,11 @@ body{font-family: "Roboto";}
     letter-spacing: 0.02em;
     color: #757575;}
 
-    .header-contacts:hover, .header-contacts:focus{color: #2196F3;}
+.header-contacts:hover{text-decoration: underline #2196F3;}
+.header-contacts:active{color: #2196F3;}
+
+
+/*------Hero------*/
 
 .hero-text{font-family: 'Roboto';
     font-style: normal;
@@ -66,6 +67,13 @@ body{font-family: "Roboto";}
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-background-color: #2196F3;}
+background-color: #2196F3;
+border: 1px solid transparent;}
+
+/*-------приимущества----------*/
+
+
+
+
     
 
