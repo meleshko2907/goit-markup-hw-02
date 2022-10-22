@@ -1,4 +1,5 @@
-body{font-family: "Roboto";}
+body{font-family: "Roboto", Verdana, Geneva, Tahoma,sans-serif;}
+body{color:  #757575;}
 
 .list{list-style: none;}
 
@@ -9,7 +10,7 @@ body{font-family: "Roboto";}
 
 .header {background-color: #ffffff;}
 
-.logo-header {font-family: 'Raleway';
+.logo {font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -18,7 +19,7 @@ body{font-family: "Roboto";}
     color: #2196F3;}
 
 .logo-part {color: #000000}
-.logo-header:hover{text-decoration:underline;}
+.logo:hover{text-decoration:underline;}
 
 
 
@@ -57,7 +58,8 @@ body{font-family: "Roboto";}
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;    
-    color: #2196F3;}
+    color: #FFFFFF;}
+    .hero-text{background-color: blue;}
     .hero-text:hover{text-decoration: underline #2196F3;}
     
 
@@ -147,6 +149,46 @@ border-radius: 4px;}
 
 
 /*-------Footer----------*/
+
+.location-on-map{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: tomato;}
+    .location-on-map:hover{text-decoration: underline #2196F3;}
+
+.contact-tel{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: tomato;}
+.contact-tel:hover{text-decoration: underline #2196F3;}
+
+.contact-email{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: tomato;}
+.contact-email:hover{text-decoration: underline #2196F3;}
+
+.selection{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.65;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;}
+.selection:hover{text-decoration: underline #2196F3;}
+.selection:hover{cursor: pointer;}
+.selection:active{background-color: #2196F3;}
+
 
 
 
