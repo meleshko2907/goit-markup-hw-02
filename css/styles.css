@@ -28,9 +28,10 @@ body{font-family: "Roboto";}
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;}
+    color: #212121;
+    cursor: pointer;}
 
-.nav-link:hover{text-decoration: underline #2196F3;}, 
+.nav-link:hover{text-decoration: underline #2196F3;}
 .nav-link:active{color: #2196F3;}
 
 .header-contacts{font-family: 'Roboto';
@@ -39,7 +40,8 @@ body{font-family: "Roboto";}
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;}
+    color: #757575;
+    cursor: pointer;}
 
 .header-contacts:hover{text-decoration: underline #2196F3;}
 .header-contacts:active{color: #2196F3;}
@@ -56,6 +58,8 @@ body{font-family: "Roboto";}
     letter-spacing: 0.06em;
     text-transform: uppercase;    
     color: #2196F3;}
+    .hero-text:hover{text-decoration: underline #2196F3;}
+    
 
 .hero-btn {font-family: 'Roboto';
     font-style: normal;
@@ -69,8 +73,86 @@ body{font-family: "Roboto";}
     color: #FFFFFF;
 background-color: #2196F3;
 border: 1px solid transparent;}
+.hero-btn:hover{background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;}
 
-/*-------приимущества----------*/
+/*-------advantage----------*/
+
+.advantage-title {color: transparent;}
+
+.advantage-list-title {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;    
+    color: #212121;}
+.advantage-list-title:hover{text-decoration: underline #2196F3;}
+
+
+.advantage-list-text {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;  
+    letter-spacing: 0.03em;
+    color: #757575;}
+.advantage-list-text:hover{text-decoration: underline #2196F3;}
+
+/*-------About work----------*/
+
+.work-title {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;}
+.work-title:hover{text-decoration: underline #2196F3;}
+
+/*-------Work team----------*/
+
+.work-team-title {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;    
+    color: #212121;}
+    .work-team-title:hover{text-decoration: underline #2196F3;}
+
+.work-team-list-item {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;}
+.work-team-list-item:hover{text-decoration: underline #2196F3;}
+
+.work-team-item-text {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;}
+    .work-team-item-text:hover{text-decoration: underline #2196F3;}
+
+
+/*-------Footer----------*/
+
+
+
+
+
+
 
 
 
