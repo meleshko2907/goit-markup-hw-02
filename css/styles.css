@@ -23,9 +23,7 @@ body{color:  #757575;}
 
 
 
-.nav-link {font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
+.nav-link {font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -35,8 +33,7 @@ body{color:  #757575;}
 .nav-link:hover{text-decoration: underline #2196F3;}
 .nav-link:active{color: #2196F3;}
 
-.header-contacts{font-family: 'Roboto';
-    font-style: normal;
+.header-contacts{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -50,9 +47,7 @@ body{color:  #757575;}
 
 /*------Hero------*/
 
-.hero-text{font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
+.hero-text{font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
@@ -63,9 +58,7 @@ body{color:  #757575;}
     .hero-text:hover{text-decoration: underline #2196F3;}
     
 
-.hero-btn {font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+.hero-btn {font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     display: flex;
@@ -78,13 +71,13 @@ border: 1px solid transparent;}
 .hero-btn:hover{background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;}
+.hero-btn{cursor: pointer;}
 
 /*-------advantage----------*/
 
 .advantage-title {color: transparent;}
 
-.advantage-list-title {font-family: 'Roboto';
-    font-style: normal;
+.advantage-list-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -94,19 +87,17 @@ border-radius: 4px;}
 .advantage-list-title:hover{text-decoration: underline #2196F3;}
 
 
-.advantage-list-text {font-family: 'Roboto';
-    font-style: normal;
+.advantage-list-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;  
     letter-spacing: 0.03em;
-    color: #757575;}
+    }
 .advantage-list-text:hover{text-decoration: underline #2196F3;}
 
 /*-------About work----------*/
 
-.work-title {font-family: 'Roboto';
-    font-style: normal;
+.work-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -117,8 +108,7 @@ border-radius: 4px;}
 
 /*-------Work team----------*/
 
-.work-team-title {font-family: 'Roboto';
-    font-style: normal;
+.work-team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -127,9 +117,7 @@ border-radius: 4px;}
     color: #212121;}
     .work-team-title:hover{text-decoration: underline #2196F3;}
 
-.work-team-list-item {font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
+.work-team-list-item {font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -137,21 +125,18 @@ border-radius: 4px;}
     color: #212121;}
 .work-team-list-item:hover{text-decoration: underline #2196F3;}
 
-.work-team-item-text {font-family: 'Roboto';
-    font-style: normal;
+.work-team-item-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;}
+    letter-spacing: 0.03em;}
     .work-team-item-text:hover{text-decoration: underline #2196F3;}
 
 
 /*-------Footer----------*/
 
-.location-on-map{font-family: 'Roboto';
-    font-style: normal;
+.location-on-map{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -159,8 +144,7 @@ border-radius: 4px;}
     color: tomato;}
     .location-on-map:hover{text-decoration: underline #2196F3;}
 
-.contact-tel{font-family: 'Roboto';
-font-style: normal;
+.contact-tel{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -168,8 +152,7 @@ letter-spacing: 0.03em;
 color: tomato;}
 .contact-tel:hover{text-decoration: underline #2196F3;}
 
-.contact-email{font-family: 'Roboto';
-font-style: normal;
+.contact-email{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -177,8 +160,7 @@ letter-spacing: 0.03em;
 color: tomato;}
 .contact-email:hover{text-decoration: underline #2196F3;}
 
-.selection{font-family: 'Roboto';
-    font-style: normal;
+.selection{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.65;
@@ -188,6 +170,29 @@ color: tomato;}
 .selection:hover{text-decoration: underline #2196F3;}
 .selection:hover{cursor: pointer;}
 .selection:active{background-color: #2196F3;}
+
+
+.portfolio-list-link{border:#2196F3;}
+
+
+.potfrolio-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: #212121;}
+    .potfrolio-list-title:hover{text-decoration: underline #2196F3;}
+
+.portfolio-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;}
+.portfolio-list-text:hover {text-decoration: underline #2196F3;
+
+
+
+
 
 
 
