@@ -12,60 +12,59 @@ body{color:  #757575;}
 
 .logo {font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;   
     letter-spacing: 0.03em;
     color: #2196F3;}
 
 .logo-part {color: #000000}
-.logo:hover{text-decoration:underline;}
 
 
-
-.nav-link {font-weight: 500;
+.nav-link {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
     cursor: pointer;}
 
-.nav-link:hover{text-decoration: underline #2196F3;}
+
 .nav-link:active{color: #2196F3;}
 
 .header-contacts{
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
-    cursor: pointer;}
+    color: #2196F3;}
 
-.header-contacts:hover{text-decoration: underline #2196F3;}
 .header-contacts:active{color: #2196F3;}
 
 
 /*------Hero------*/
 
-.hero-text{font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;    
-    color: #FFFFFF;}
-    .hero-text{background-color: blue;}
-    .hero-text:hover{text-decoration: underline #2196F3;}
-    
+.hero{background-color: #2F303A;}
 
-.hero-btn {font-weight: 700;
+.hero-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71; 
+    letter-spacing: 0.03em;
+    color: #757575;}  
+
+.hero-btn {font-family: 'Roboto';
+    font-style: normal;
     font-size: 16px;
     line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: #FFFFFF;;
 background-color: #2196F3;
 border: 1px solid transparent;}
 .hero-btn:hover{background: #2196F3;
@@ -78,96 +77,119 @@ border-radius: 4px;}
 .advantage-title {color: transparent;}
 
 .advantage-list-title {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;    
     color: #212121;}
-.advantage-list-title:hover{text-decoration: underline #2196F3;}
+
 
 
 .advantage-list-text {
-    font-weight: 400;
+    font-family: 'Roboto';
+    font-style: normal;
     font-size: 14px;
-    line-height: 1.71;  
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    }
-.advantage-list-text:hover{text-decoration: underline #2196F3;}
+    color: #757575;    }
+
 
 /*-------About work----------*/
 
 .work-title {
-    font-weight: 700;
+    font-family: 'Roboto';
+    font-style: normal;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;}
-.work-title:hover{text-decoration: underline #2196F3;}
+
 
 /*-------Work team----------*/
 
 .work-team-title {
-    font-weight: 700;
+    font-family: 'Roboto';
+    font-style: normal;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;    
+    letter-spacing: 0.03em;
     color: #212121;}
-    .work-team-title:hover{text-decoration: underline #2196F3;}
+  
 
-.work-team-list-item {font-weight: 500;
+.work-team-list-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;}
-.work-team-list-item:hover{text-decoration: underline #2196F3;}
+
 
 .work-team-item-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;}
-    .work-team-item-text:hover{text-decoration: underline #2196F3;}
+    font-family: 'Roboto';
+font-style: normal;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;}
+  
 
 
 /*-------Footer----------*/
 
+footer{background-color: #2F303A;}
+
+.logo-footer{font-family: 'Raleway';
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;}
+
+.logo-footer-part{color: #ffffff;}
+
 .location-on-map{
-    font-weight: 400;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;}
+
+
+.contact-tel{
+    font-family: 'Roboto';
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: tomato;}
-    .location-on-map:hover{text-decoration: underline #2196F3;}
+    color: rgba(255, 255, 255, 0.6);}
 
-.contact-tel{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: tomato;}
-.contact-tel:hover{text-decoration: underline #2196F3;}
 
 .contact-email{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: tomato;}
-.contact-email:hover{text-decoration: underline #2196F3;}
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);}
 
+/*---------Portfolio----------*/
 .selection{
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.65;
+    line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;}
-.selection:hover{text-decoration: underline #2196F3;}
+     
 .selection:hover{cursor: pointer;}
 .selection:active{background-color: #2196F3;}
 
@@ -176,33 +198,20 @@ color: tomato;}
 
 
 .potfrolio-list-title {
-    font-weight: 700;
+    font-family: 'Roboto';
+    font-style: normal;
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
     color: #212121;}
-    .potfrolio-list-title:hover{text-decoration: underline #2196F3;}
+
 
 .portfolio-list-text {
-    font-weight: 400;
+    font-family: 'Roboto';
+    font-style: normal;
     font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;}
-.portfolio-list-text:hover {text-decoration: underline #2196F3;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 
