@@ -9,6 +9,7 @@ body{
 
 :root{
 --brand-color:#212121;
+--secondary-color:#2196F3;
 }
 
 
@@ -20,7 +21,7 @@ body{
     font-size: 26px;
     line-height: 1.19;   
     letter-spacing: 0.03em;
-    color: #2196F3;}
+    color: var(--secondary-color);}
 
 .logo-part {color: #000000}
 
@@ -34,9 +35,9 @@ body{
     cursor: pointer;}
 
 
-.nav-link:focus{color: #2196F3;}
+.nav-link:focus{color:var(--secondary-color);}
 
-.nav-link.link.current {color: #2196F3;}
+.nav-link.link.current {color:var(--secondary-color);}
 
 .header-contacts{
     font-weight: 500;
@@ -45,7 +46,7 @@ body{
     letter-spacing: 0.02em;
     color: #757575;}
 
-.header-contacts:focus{color: #2196F3;}
+.header-contacts:focus{color: var(--secondary-color);}
 
 
 /*------Hero------*/
@@ -66,9 +67,9 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;;
-background-color: #2196F3;
+background-color: var(--secondary-color);
 border: 1px solid transparent;}
-.hero-btn:hover{background: #2196F3;
+.hero-btn:hover{background: var(--secondary-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;}
 .hero-btn{cursor: pointer;}
@@ -145,7 +146,7 @@ footer{background-color: #2F303A;}
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;}
+    color: var(--secondary-color);}
 
 .logo-footer-part{color: #ffffff;}
 
@@ -173,6 +174,9 @@ footer{background-color: #2F303A;}
     color: rgba(255, 255, 255, 0.6);}
 
 /*---------Portfolio----------*/
+
+.project-list{background: #F5F5F5;}
+
 .selection{
     font-weight: 500;
     font-size: 16px;
@@ -182,10 +186,10 @@ footer{background-color: #2F303A;}
     color: var(--brand-color);}
      
 .selection:hover{cursor: pointer;}
-.selection:hover{background-color: #2196F3;}
+.selection:hover{background-color: var(--secondary-color);}
 
 
-.portfolio-list-link{border:#2196F3;}
+.portfolio-list-link{border:var(--secondary-color);}
 
 
 .potfrolio-list-title {
