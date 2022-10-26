@@ -188,10 +188,6 @@ footer{background-color: #2F303A;}
 .selection:hover{cursor: pointer;}
 .selection:hover{background-color: var(--secondary-color);}
 
-
-.portfolio-list-link{border:var(--secondary-color);}
-
-
 .potfrolio-list-title {
     font-size: 18px;
     line-height: 2.00;
