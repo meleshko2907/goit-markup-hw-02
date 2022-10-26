@@ -8,7 +8,7 @@ body{
 .link {text-decoration: none;}
 
 :root{
---secondary-brand-color:#212121;
+--brand-color:#212121;
 }
 
 
@@ -30,11 +30,13 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--secondary-brand-color);
+    color: var(--brand-color);
     cursor: pointer;}
 
 
 .nav-link:focus{color: #2196F3;}
+
+.nav-link.link.current {color: #2196F3;}
 
 .header-contacts{
     font-weight: 500;
@@ -73,6 +75,8 @@ border-radius: 4px;}
 
 /*-------advantage----------*/
 
+.advantages{background: #F5F5F5;}
+
 .advantage-title {color: transparent;}
 
 .advantage-list-title {
@@ -80,7 +84,7 @@ border-radius: 4px;}
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;    
-    color: var(--secondary-brand-color);}
+    color: var(--brand-color);}
 
 
 
@@ -93,22 +97,26 @@ border-radius: 4px;}
 
 /*-------About work----------*/
 
+.about-work{background: #F5F5F5;}
+
 .work-title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--secondary-brand-color);}
+    color: var(--brand-color);}
 
 
 /*-------Work team----------*/
+
+.work-team {background: #F5F4FA;}
 
 .work-team-title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color:var(--secondary-brand-color);}
+    color:var(--brand-color);}
   
 
 .work-team-list-item {
@@ -117,7 +125,7 @@ border-radius: 4px;}
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--secondary-brand-color);}
+    color: var(--brand-color);}
 
 
 .work-team-item-text {
@@ -171,7 +179,7 @@ footer{background-color: #2F303A;}
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--secondary-brand-color);}
+    color: var(--brand-color);}
      
 .selection:hover{cursor: pointer;}
 .selection:hover{background-color: #2196F3;}
@@ -184,13 +192,13 @@ footer{background-color: #2F303A;}
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
-    color: var(--secondary-brand-color);}
+    color: var(--brand-color);}
 
 
 .portfolio-list-text {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: var(--brand-color);}
+    color: #757575;}
 
 
