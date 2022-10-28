@@ -6,7 +6,7 @@
 body{
     font-family: "Roboto", sans-serif; 
     color:  #757575;
-    background-color: #F5F5F5;}
+    }
 
 
     /*----reset-atart*/
@@ -113,10 +113,6 @@ img{
 
 /*-------advantage----------*/
 
-.advantages {
-    background: #FFFFFF;
-}
-
 .advantage-title {color: transparent;}
 
 .advantage-list-title {
@@ -136,8 +132,6 @@ img{
 
 
 /*-------About work----------*/
-
-.about-work{background: #FFFFFF;}
 
 .work-title {
     font-size: 36px;
