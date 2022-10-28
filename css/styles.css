@@ -57,7 +57,9 @@ img{
     font-size: 26px;
     line-height: 1.19;   
     letter-spacing: 0.03em;
-    color: var(--secondary-color);}
+    color: var(--secondary-color);
+    display: block;
+}
 
 .logo-part {color: #000000}
 
@@ -80,7 +82,9 @@ img{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;}
+    color: #757575;
+    display: block;
+}
 
 .header-contacts:focus{color: var(--secondary-color);}
 
