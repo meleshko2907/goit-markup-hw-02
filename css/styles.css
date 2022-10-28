@@ -137,7 +137,7 @@ img{
 /*-------advantage----------*/
 .advantages{
     margin-top: 94px;
-    margin-bottom: 118px;
+    margin-bottom: 94px;
 }
 
 .advantage-item{
@@ -163,7 +163,7 @@ img{
 /*-------About work----------*/
 
 .about-work{
-margin-bottom: 188px;
+margin-bottom: 94px;
 }
 
 .work-title {
@@ -178,7 +178,7 @@ margin-bottom: 188px;
 /*-------Work team----------*/
 
 .work-team {background: #F5F4FA;
-    margin-bottom: 124px;
+    padding-top: 94px;
 }
 
 .work-team-title {
@@ -208,6 +208,7 @@ margin-bottom: 188px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-bottom: 124px;
    }
   
 
