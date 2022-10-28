@@ -1,16 +1,38 @@
+:root {
+    --brand-color: #212121;
+    --secondary-color: #2196F3;
+}
+
 body{
     font-family: "Roboto", sans-serif; 
-    color:  #757575;}
+    color:  #757575;
+    background-color: #F5F5F5;}
 
 
-.list{list-style: none;}
+    /*----reset-atart*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, 
+p {
+    margin: 0px;
+}
+
+.list{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
 
 .link {text-decoration: none;}
 
-:root{
---brand-color:#212121;
---secondary-color:#2196F3;
+img{
+    display: block;
 }
+
 
 
 /*-----Header---*/
@@ -51,32 +73,49 @@ body{
 
 /*------Hero------*/
 
-.hero{background-color: #2F303A;}
+.hero {
+    background-color: #2F303A;
+}
 
 .hero-text{
-    font-size: 14px;
-    line-height: 1.71; 
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36; 
     letter-spacing: 0.03em;
-    color: #FFFFFF;}  
+    color: #FFFFFF;
+}  
 
 .hero-btn {
+    font-family: "Roboto";
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;;
-background-color: var(--secondary-color);
-border: 1px solid transparent;}
-.hero-btn:hover{background: var(--secondary-color);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;}
-.hero-btn{cursor: pointer;}
+    color: #FFFFFF;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: bottom 0;}
+     .hero-btn:active {
+        background: #188CE8;
+         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+         border-radius: 4px
+         }
+    
+         .hero-btn {
+             cursor: pointer;
+         }
+   
 
 /*-------advantage----------*/
 
-.advantages{background: #F5F5F5;}
+.advantages {
+    background: #FFFFFF;
+}
 
 .advantage-title {color: transparent;}
 
@@ -98,7 +137,7 @@ border-radius: 4px;}
 
 /*-------About work----------*/
 
-.about-work{background: #F5F5F5;}
+.about-work{background: #FFFFFF;}
 
 .work-title {
     font-size: 36px;
@@ -175,9 +214,11 @@ footer{background-color: #2F303A;}
 
 /*---------Portfolio----------*/
 
-.project-list{background: #F5F5F5;}
-
+.project-list {
+    background: #FFFFFF;
+}
 .selection{
+    font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
