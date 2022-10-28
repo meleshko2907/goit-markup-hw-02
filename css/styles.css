@@ -37,6 +37,11 @@ img{
 
 /*-----Header---*/
 
+.header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .logo {font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.19;   
@@ -73,6 +78,7 @@ img{
 
 .hero {
     background-color: #2F303A;
+    padding:200px 452px;
 }
 
 .hero-text{
@@ -82,10 +88,10 @@ img{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36; 
+    text-align: center; 
     letter-spacing: 0.03em;
     color: #FFFFFF;
-
-}  
+    }  
 
 .hero-btn{
     font-family: 'Roboto';
@@ -112,8 +118,10 @@ img{
  
 
 /*-------advantage----------*/
-
-.advantage-title {color: transparent;}
+.advantages{
+    margin-top: 94px;
+    margin-bottom: 118px;
+}
 
 .advantage-item{
     width: 270px;
@@ -137,7 +145,12 @@ img{
 
 /*-------About work----------*/
 
+.about-work{
+margin-bottom: 188px;
+}
+
 .work-title {
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -147,14 +160,18 @@ img{
 
 /*-------Work team----------*/
 
-.work-team {background: #F5F4FA;}
+.work-team {background: #F5F4FA;
+    margin-bottom: 124px;
+}
 
 .work-team-title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color:var(--brand-color);}
+    color:var(--brand-color);
+    margin-bottom: 50px;
+}
   
 
 .work-team-list-item {
@@ -163,7 +180,10 @@ img{
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--brand-color);}
+    color: var(--brand-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 
 
 .work-team-item-text {
@@ -214,7 +234,14 @@ footer{background-color: #2F303A;}
 
 .project-list {
     background: #FFFFFF;
+    margin-top: 126px;
+    margin-bottom: 114px;
 }
+
+.buttom-list{
+    margin-bottom: 56px;
+}
+
 .project-selection{
     font-family: 'Roboto';
         font-style: normal;
@@ -237,10 +264,13 @@ footer{background-color: #2F303A;}
 .project-selection:active{
     color: #FFFFFF;
     background: #2196F3;
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        border-radius: 4px;
-        }
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
 
+.portfolio-list-item{
+    margin-bottom: 50px;
+}
 
 
 .potfrolio-list-title {
