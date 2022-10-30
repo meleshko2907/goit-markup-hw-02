@@ -51,12 +51,6 @@ img{
 
 /*-----Header---*/
 
-.header{
-    padding-top: 32px;
-    padding-bottom: 32px;
-
-}
-
 .header-container{
     display: flex;
     align-items: center;
@@ -85,8 +79,10 @@ img{
     margin-right: auto;
 }
 
-
 .nav-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -106,6 +102,8 @@ img{
     letter-spacing: 0.02em;
     color: #757575;
     display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .header-contacts:focus{color: var(--secondary-color);}
@@ -116,25 +114,25 @@ img{
     gap: 50px;
 }
 
-
 /*------Hero------*/
 
 
 
 .hero {
+    display: block;
     background-color: #2F303A;
-    width: 1600;
+    width: 1600px;
     height: 600px;
     text-align: center;
     
     padding-top: 200px;
     padding-bottom: 200px;
-
-    
     }
 
 .hero-text{
+    margin-right: 452px;
     margin-bottom: 30px;
+    margin-left: 452px;
     width: 696px;
     font-family: inherit;
     font-weight: 900;
@@ -168,6 +166,11 @@ img{
 .hero-btn:active{background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+}
+
+.main-button{
+    display: block;
+    margin: 0 auto;
 }
 
  
