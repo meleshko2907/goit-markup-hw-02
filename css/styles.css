@@ -45,8 +45,6 @@ img{
     margin-right: auto;
     margin-left: auto;
 
-    outline: 2px solid red;
-    outline-offset: -2px;
 }
 
 /*-----Header---*/
@@ -54,6 +52,7 @@ img{
 .header-container{
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .logo {font-family: 'Raleway';
@@ -114,6 +113,8 @@ img{
     gap: 50px;
 }
 
+
+
 /*------Hero------*/
 
 
@@ -121,7 +122,7 @@ img{
 .hero {
     display: block;
     background-color: #2F303A;
-    width: 1600px;
+    width: 1200px;
     height: 600px;
     text-align: center;
     
@@ -130,9 +131,9 @@ img{
     }
 
 .hero-text{
-    margin-right: 452px;
+    margin-right: 338px;
     margin-bottom: 30px;
-    margin-left: 452px;
+    margin-left: 252px;
     width: 696px;
     font-family: inherit;
     font-weight: 900;
@@ -176,10 +177,6 @@ img{
  
 
 /*-------advantage----------*/
-.advantages{
-    margin-top: 94px;
-    margin-bottom: 94px;
-}
 
 .advantage-list{
     display: flex;
@@ -208,9 +205,7 @@ img{
 
 /*-------About work----------*/
 
-.about-work{
-margin-bottom: 94px;
-}
+
 
 .photos{
     display: flex;
@@ -231,6 +226,13 @@ margin-bottom: 94px;
 
 .work-team {background: #F5F4FA;
     padding-top: 0px;
+}
+
+.work-team-item{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    
 }
 
 .work-team-title {
@@ -266,20 +268,26 @@ margin-bottom: 94px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-bottom: 124px;
+    padding-bottom: 30px;
    }
   
 
 
 /*-------Footer----------*/
 
-footer{background-color: #2F303A;}
+footer{
+    background-color: #2F303A;
+    height: 252px;
+}
 
-.logo-footer{font-family: 'Raleway';
+.logo-footer{
+    font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--secondary-color);}
+    color: var(--secondary-color);
+    
+}
 
 .logo-footer-part{color: #ffffff;}
 
@@ -288,15 +296,17 @@ footer{background-color: #2F303A;}
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;}
-
+    color: #FFFFFF;
+}
 
 .contact-tel{
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);}
+    color: rgba(255, 255, 255, 0.6);
+    
+}
 
 
 .contact-email{
@@ -304,14 +314,15 @@ footer{background-color: #2F303A;}
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);}
+    color: rgba(255, 255, 255, 0.6);
+    
+}
 
 /*---------Portfolio----------*/
 
 .project-list {
     background: #FFFFFF;
-    margin-top: 126px;
-    margin-bottom: 114px;
+    
 }
 
 .buttom-list{
@@ -354,6 +365,7 @@ footer{background-color: #2F303A;}
     gap: 30px;
     margin-top: 0px;
     margin-bottom: 0px;
+    
     }
 
 .portfolio-list-item{
@@ -363,12 +375,13 @@ footer{background-color: #2F303A;}
 }
 
 .potfrolio-list-title {
+    margin-bottom: 4px;
     width: 370px;
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
     color: var(--brand-color);
-    }
+}
 
 
 .portfolio-list-text {
@@ -377,6 +390,16 @@ footer{background-color: #2F303A;}
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
-    }
+}
+
+.photo-description{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+}
+
 
 
