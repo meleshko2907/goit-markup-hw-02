@@ -54,6 +54,7 @@ img{
 .header{
     padding-top: 32px;
     padding-bottom: 32px;
+
 }
 
 .logo {font-family: 'Raleway';
@@ -98,12 +99,14 @@ img{
 
 .hero {
     background-color: #2F303A;
+    width: 1600;
     height: 600px;
     text-align: center;
     
     padding-top: 200px;
     padding-bottom: 200px;
-   }
+    
+    }
 
 .hero-text{
     margin-bottom: 30px;
@@ -150,6 +153,11 @@ img{
     margin-bottom: 94px;
 }
 
+.advantage-list{
+    display: flex;
+    justify-content:space-between;
+}
+
 .advantage-item{
     width: 270px;
 }
@@ -176,6 +184,11 @@ img{
 margin-bottom: 94px;
 }
 
+.photos{
+    display: flex;
+    justify-content: space-between;
+}
+
 .work-title {
     margin-bottom: 50px;
     font-size: 36px;
@@ -188,7 +201,7 @@ margin-bottom: 94px;
 /*-------Work team----------*/
 
 .work-team {background: #F5F4FA;
-    padding-top: 94px;
+    padding-top: 0px;
 }
 
 .work-team-title {
@@ -198,6 +211,11 @@ margin-bottom: 94px;
     letter-spacing: 0.03em;
     color:var(--brand-color);
     margin-bottom: 50px;
+}
+
+.work-team-list{
+    display:flex;
+    justify-content: space-between;
 }
   
 
@@ -268,23 +286,25 @@ footer{background-color: #2F303A;}
 
 .buttom-list{
     margin-bottom: 56px;
+    display: flex;
+    justify-content: center;
 }
 
 .project-selection{
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;  
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: var(--brand-color);
-        background: #F5F4FA;
-        border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;  
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-color);
+    background: #F5F4FA;
+    border-radius: 4px;
 
-        padding: 6px 22px;
-        border-width: 0px;
-        min-height: 38px;
+    padding: 6px 22px;
+    border-width: 0px;
+    min-height: 38px;
 }
 
 .project-selection:hover{cursor: pointer;}
@@ -301,6 +321,8 @@ footer{background-color: #2F303A;}
     flex-wrap: wrap;
     padding-left: 0px;
     gap: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     }
 
 .portfolio-list-item{
