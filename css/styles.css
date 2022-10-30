@@ -27,10 +27,15 @@ p {
     padding: 0px;
 }
 
-.link {text-decoration: none;}
+.link {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
 
 img{
     display: block;
+    padding: 0px;
 }
 
 .container{
@@ -96,7 +101,9 @@ img{
     height: 600px;
     text-align: center;
     
-}
+    padding-top: 200px;
+    padding-bottom: 200px;
+   }
 
 .hero-text{
     margin-bottom: 30px;
@@ -106,7 +113,8 @@ img{
     font-size: 44px;
     line-height: 1.36; 
     text-align: center; 
-    letter-spacing: 0.03em;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #FFFFFF;
     }  
 
@@ -288,22 +296,34 @@ footer{background-color: #2F303A;}
     border-radius: 4px;
 }
 
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    gap: 30px;
+    }
+
 .portfolio-list-item{
-    margin-bottom: 50px;
+    flex-basis: calc((100%-60px)/3);
+    flex-basis: 370px;
+    max-width: 370px;
 }
 
-
 .potfrolio-list-title {
+    width: 370px;
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
-    color: var(--brand-color);}
+    color: var(--brand-color);
+    }
 
 
 .portfolio-list-text {
+    width: 370px;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;}
+    color: #757575;
+    }
 
 
